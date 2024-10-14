@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PROGRAM KASIR TOKO</title>
+</head>
+<body>
+    <div style="color: #89d7eb; margin: 0; background: white; padding: 20px; font-size: 2.5em; text-align: center;"> <img src="C:\Users\PC LAB SI 32\Pictures\BUTIK.jpg" height="100px"></img>KASIR TOKO BUTIK LN</div>
+    <hr width="100%" align="left" size="3px" color="BLACK">
+    <div style="color: #050000; margin: 0; background: white; padding: 10px 10px; float: right; width: 66%; font-size: 1.5em; text-align: center;">
+        <form action="proses.php" method="get">
+            <table border="0">
+                <h4>LOGIN KASIR</h4>
+                <tr>
+                    <td>Username</td>
+                    <td>: <input type="text" name="namalengkap"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>: <input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Level</td>
+                    <td>: <select name="Level">
+                            <option value="Karyawan">Karyawan</option>
+                            <option value="Admin" selected="selected">Admin</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="Login" value="Login"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div style="color: #060606; margin: 0; background: white; padding: 40px 20px; float: left; width: 21%; font-size: 0.5em; text-align: center;">LOGIN</div>
+    <hr width="100%" ="right" size="3px" color="BLACK">
+</body>
+</html>
